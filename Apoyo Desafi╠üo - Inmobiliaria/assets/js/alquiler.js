@@ -16,6 +16,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar.',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789',
         habitaciones: 3,
+        banos: 3,
         costo: 1000,
         smoke: true,
         pets: true
@@ -26,6 +27,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
         ubicacion: '123 Main Street, Anytown, CA 91234',
         habitaciones: 2,
+        banos: 2,
         costo: 1590,
         smoke: false,
         pets: false
@@ -36,6 +38,7 @@ const propiedadesAlquiler = [
         descripcion: 'Esta casa de 4 habitaciones está ubicada en el corazón de la ciudad, cerca de todo.',
         ubicacion: '233 Main Street, Anytown, CA 34912',
         habitaciones: 4,
+        banos: 3,
         costo: 1100,
         smoke: false,
         pets: true
@@ -46,6 +49,7 @@ const propiedadesAlquiler = [
         descripcion: 'Esta hermosa casa ofrece una vista impresionante al mar',
         ubicacion: '678 Ocean Avenue, Seaside Town, CA 99567',
         habitaciones: 3,
+        banos: 2,
         costo: 1250,
         smoke: true,
         pets: true
@@ -56,6 +60,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
         ubicacion: '321 Main Street, Anytown, CA 32912',
         habitaciones: 3,
+        banos: 2,
         costo: 1560,
         smoke: false,
         pets: false
@@ -85,7 +90,7 @@ function renderProperties(properties, container) {
                         <p><i class="fas fa-map-marker-alt"></i> ${propiedad.ubicacion}</p>
                         <p>
                             <i class="fas fa-bed"></i> ${propiedad.habitaciones} Habitaciones |
-                            <i class="fas fa-bath"></i> ${propiedad.costo} Baños
+                            <i class="fas fa-bath"></i> ${propiedad.banos} Baños
                         </p>
                         <p><i class="fas fa-dollar-sign"></i> ${propiedad.costo}</p>
                         ${smokeStatus}

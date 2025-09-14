@@ -7,6 +7,7 @@ const propiedadesVenta = [
         descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial',
         ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
         habitaciones: 4,
+        banos: 3,
         costo: 4000,
         smoke: false,
         pets: true
@@ -17,6 +18,7 @@ const propiedadesVenta = [
         descripcion: 'Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas',
         ubicacion: '789 Mountain Road, Summit Peaks, CA 23456',
         habitaciones: 2,
+        banos: 2,
         costo: 2000,
         smoke: true,
         pets: true
@@ -27,6 +29,7 @@ const propiedadesVenta = [
         descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
         ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
         habitaciones: 3,
+        banos: 3,
         costo: 3500,
         smoke: false,
         pets: true
@@ -37,6 +40,7 @@ const propiedadesVenta = [
         descripcion: 'Esta casa antigua está ubicada en una exclusiva zona residencial',
         ubicacion: '123 virder val, Prestige Subtel, CA 78456',
         habitaciones: 3,
+        banos: 2,
         costo: 2800,
         smoke: false,
         pets: false
@@ -47,6 +51,7 @@ const propiedadesVenta = [
         descripcion: 'Este apartamento acogedor está situado en el centro de la cuidad con impresionantes vistas',
         ubicacion: '978 Mountain Road, Summit Peaks, CA 56234',
         habitaciones: 3,
+        banos: 3,
         costo: 2900,
         smoke: true,
         pets: true
@@ -57,6 +62,7 @@ const propiedadesVenta = [
         descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares del bosque',
         ubicacion: '675 Sky Avenue, Skyview City, CA 89567',
         habitaciones: 3,
+        banos: 2,
         costo: 3650,
         smoke: false,
         pets: true
@@ -86,7 +92,7 @@ function renderProperties(properties, container) {
                         <p><i class="fas fa-map-marker-alt"></i> ${propiedad.ubicacion}</p>
                         <p>
                             <i class="fas fa-bed"></i> ${propiedad.habitaciones} Habitaciones |
-                            <i class="fas fa-bath"></i> ${propiedad.costo} Baños
+                            <i class="fas fa-bath"></i> ${propiedad.banos} Baños
                         </p>
                         <p><i class="fas fa-dollar-sign"></i> ${propiedad.costo}</p>
                         ${smokeStatus}
