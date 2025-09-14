@@ -1,5 +1,5 @@
 
-export const propiedadesVenta = [
+const propiedadesVenta = [
 {
 nombre: 'Apartamento de lujo en zona exclusiva',
 src: 'https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg',
@@ -63,7 +63,7 @@ pets: true
 ];  
 
 
-export const propiedadesAlquiler = [
+const propiedadesAlquiler = [
 {
 nombre: 'Apartamento en el centro de la ciudad',
 src: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YXBhcnRtZW50fGVufDB8MHwwfHx8MA%3D%3D&auto=format&fit=crop&w=700&q=60',
@@ -143,16 +143,4 @@ const petsStatus = (pets) => {
     } else {
         return '<p class="text-danger"><i class="fas fa-ban"></i> No se permiten mascotas</p>';
     }
-};
-
-export function smokeStatus(smoke) {
-  return smoke
-    ? '<p class="text-success"><i class="fas fa-smoking"></i> Se permite fumar</p>'
-    : '<p class="text-danger"><i class="fas fa-smoking-ban"></i> No se permite fumar</p>';
-};
-
-export const petsStatus = (pets) => {
-  return pets
-    ? '<p class="text-success"><i class="fas fa-paw"></i> Mascotas permitidas</p>'
-    : '<p class="text-danger"><i class="fas fa-ban"></i> No se permiten mascotas</p>';
 };
