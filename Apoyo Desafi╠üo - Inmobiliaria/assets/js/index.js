@@ -7,7 +7,7 @@ const propiedadesVenta = [
         descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial',
         ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
         habitaciones: 4,
-        costo: 4,
+        costo: 4000,
         smoke: false,
         pets: true
     },
@@ -17,7 +17,7 @@ const propiedadesVenta = [
         descripcion: 'Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas',
         ubicacion: '789 Mountain Road, Summit Peaks, CA 23456',
         habitaciones: 2,
-        costo: 1,
+        costo: 2000,
         smoke: true,
         pets: true
     },
@@ -27,7 +27,7 @@ const propiedadesVenta = [
         descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares',
         ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
         habitaciones: 3,
-        costo: 3,
+        costo: 3500,
         smoke: false,
         pets: true
     },
@@ -37,7 +37,7 @@ const propiedadesVenta = [
         descripcion: 'Esta casa antigua está ubicada en una exclusiva zona residencial',
         ubicacion: '123 virder val, Prestige Subtel, CA 78456',
         habitaciones: 3,
-        costo: 2,
+        costo: 2800,
         smoke: false,
         pets: false
     },
@@ -47,7 +47,7 @@ const propiedadesVenta = [
         descripcion: 'Este apartamento acogedor está situado en el centro de la cuidad con impresionantes vistas',
         ubicacion: '978 Mountain Road, Summit Peaks, CA 56234',
         habitaciones: 3,
-        costo: 2,
+        costo: 2900,
         smoke: true,
         pets: true
     },
@@ -57,7 +57,7 @@ const propiedadesVenta = [
         descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares del bosque',
         ubicacion: '675 Sky Avenue, Skyview City, CA 89567',
         habitaciones: 3,
-        costo: 3,
+        costo: 3650,
         smoke: false,
         pets: true
     },
@@ -71,7 +71,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este apartamento de 2 habitaciones está ubicado en el corazón de la ciudad, cerca de todo.',
         ubicacion: '123 Main Street, Anytown, CA 91234',
         habitaciones: 2,
-        costo: 2,
+        costo: 980,
         smoke: false,
         pets: true
     },
@@ -81,7 +81,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar.',
         ubicacion: '456 Ocean Avenue, Seaside Town, CA 56789',
         habitaciones: 3,
-        costo: 3,
+        costo: 1000,
         smoke: true,
         pets: true
     },
@@ -91,7 +91,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
         ubicacion: '123 Main Street, Anytown, CA 91234',
         habitaciones: 2,
-        costo: 2,
+        costo: 1590,
         smoke: false,
         pets: false
     },
@@ -101,7 +101,7 @@ const propiedadesAlquiler = [
         descripcion: 'Esta casa de 4 habitaciones está ubicada en el corazón de la ciudad, cerca de todo.',
         ubicacion: '233 Main Street, Anytown, CA 34912',
         habitaciones: 4,
-        costo: 3,
+        costo: 1100,
         smoke: false,
         pets: true
     },
@@ -111,7 +111,7 @@ const propiedadesAlquiler = [
         descripcion: 'Esta hermosa casa ofrece una vista impresionante al mar',
         ubicacion: '678 Ocean Avenue, Seaside Town, CA 99567',
         habitaciones: 3,
-        costo: 2,
+        costo: 1250,
         smoke: true,
         pets: true
     },
@@ -121,7 +121,7 @@ const propiedadesAlquiler = [
         descripcion: 'Este elegante condominio moderno está ubicado en una tranquila zona residencial',
         ubicacion: '321 Main Street, Anytown, CA 32912',
         habitaciones: 3,
-        costo: 3,
+        costo: 1560,
         smoke: false,
         pets: false
     },
